@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Comparison Tool</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #3498db;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+            color: #333333;
+        }
+
+        input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border: 1px solid #3498db;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #2ecc71;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #27ae60;
+        }
+
+        #results {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+            font-size: 16px;
+            white-space: pre-wrap;
+            text-align: left;
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        pre {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+    <!-- Add this script tag to the head section of your HTML file -->
+    <script>
+        function compareTexts() {
+            var inputA = document.getElementById('inputA').value;
+            var inputB = document.getElementById('inputB').value;
+
+            // Make a Fetch API request to your AWS API endpoint
+            fetch('https://a779l5otxk.execute-api.us-east-1.amazonaws.com/dev', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                    // Add any necessary headers, such as authentication headers
+                    // For example, if using AWS Signature Version 4:
+                    // 'Authorization': 'AWS4-HMAC-SHA256 Credential=YOUR_ACCESS_KEY_ID/20240101/REGION/SERVICE/aws4_request, SignedHeaders=host;x-amz-date, Signature=SIGNATURE'
+                },
+                // You can include query parameters in the URL if needed
+                // For example: 'YOUR_AWS_API_ENDPOINT?param1=value1&param2=value2'
+            })
+            .then(response => response.json())
+            .then(result => {
+                // Display the results as before or modify the logic as needed
+                displayResults(result);
+            })
+            .catch(error => {
+                console.error('Error calling AWS API:', error);
+            });
+        }
+
+        function displayResults(result) {
+            var resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = `
+                <h2>Common words and their frequencies in inputA:</h2>
+                <pre>${formatResults(result.result_A)}</pre>
+
+                <h2>Common words and their frequencies in inputB:</h2>
+                <pre>${formatResults(result.result_B)}</pre>
+
+                <h2>Percentage of words in inputA compared to inputB:</h2>
+                <pre>${result.percentage_A_vs_B.toFixed(2)}%</pre>
+            `;
+        }
+
+        function formatResults(data) {
+            return data.map(item => item.join(': ')).join('\n');
+        }
+    </script>
+
+</head>
+<body>
+    <div id="container">
+        <h1 style="color: #3498db;">Text Comparison Tool</h1>
+        <input type="text" id="inputA" placeholder="Enter text for inputA">
+        <input type="text" id="inputB" placeholder="Enter text for inputB">
+        <button onclick="compareTexts()">Compare Texts</button>
+        <div id="results"></div>
+    </div>
+
+    <script>
+        function compareTexts() {
+            var inputA = document.getElementById('inputA').value;
+            var inputB = document.getElementById('inputB').value;
+
+            // Perform text comparison logic here (use AJAX to call the backend if needed)
+
+            // Example results (replace with actual results)
+            var result = {
+                result_A: [["word1", 3], ["word2", 2]],
+                result_B: [["word2", 4], ["word3", 1]],
+                percentage_A_vs_B: 75.0
+            };
+
+            // Display results without brackets, commas, and parentheses
+            var resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = `
+                <h2>Common words and their frequencies in inputA:</h2>
+                <pre>${formatResults(result.result_A)}</pre>
+
+                <h2>Common words and their frequencies in inputB:</h2>
+                <pre>${formatResults(result.result_B)}</pre>
+
+                <h2>Percentage of words in inputA compared to inputB:</h2>
+                <pre>${result.percentage_A_vs_B.toFixed(2)}%</pre>
+            `;
+        }
+
+        function formatResults(data) {
+            return data.map(item => item.join(': ')).join('\n');
+        }
+
+
+    </script>
+</body>
+</html>

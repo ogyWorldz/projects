@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Matcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <label for="resume">Resume:</label>
+    <input type="text" id="resume" placeholder="Enter your resume here">
+
+    <label for="jobDescription">Job Description:</label>
+    <input type="text" id="jobDescription" placeholder="Enter the job description here">
+
+    <button onclick="matchResume()">Match Resume</button>
+
+    <div id="results"></div>
+
+    <script>
+        function matchResume() {
+            // Get the values from the input fields
+            var resumeText = document.getElementById('resume').value;
+            var jobDescriptionText = document.getElementById('jobDescription').value;
+
+            // Simple matching logic (you can replace it with your own logic)
+            var matchPercentage = calculateMatchPercentage(resumeText, jobDescriptionText);
+
+            // Display the results
+            document.getElementById('results').innerHTML = 'Match Percentage: ' + matchPercentage + '%';
+        }
+
+        function calculateMatchPercentage(text1, text2) {
+            // Your matching logic goes here
+            // This is a placeholder; you can replace it with your own algorithm
+            // For example, you can compare keywords, skills, etc.
+            return Math.floor(Math.random() * 100) + 1; // Random percentage for demonstration
+        }
+    </script>
+
+</body>
+</html>
