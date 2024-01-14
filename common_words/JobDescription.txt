@@ -1,0 +1,30 @@
+About the Role:
+
+We're looking for a savvy and experienced Senior Analytics Engineer to build seamless data products in collaboration with our data engineering, analytics, engineering, business, and product management teams.
+
+
+You Will:
+
+Take the data products to the next level by developing scalable data models
+Manage transformations of data after load of raw data through both technical processes and business logic
+Create an inventory of the data sources and documents needed to implement self-service analytics
+Define quality standards of the data and partner with the analytics team to define minimum acceptance criteria for the data sources
+Data cataloging & documentation of the data sources
+Regularly meet with business partners and analytics teams to understand and solve data needs, short-term and medium-term
+Build trust with internal stakeholders to encourage data-driven decision-making
+Work with all organizations to continually grow the value of our data products by onboarding new data from our backend and 3rd party systems
+
+
+You Have:
+
+5+ years of experience with SQL, preferably for data transformation or analytical use cases
+4+ years of experience building scalable data models for analytical and BI purposes
+3+ years solid experience with dbt
+Mastery of data warehouse methodologies and techniques from transactional databases to dimensional data modeling, to wide denormalized data marts
+Solid experience with BI tools like Tableau and Looker
+Experience using version control (command-line, Git)
+Familiarity with one of the data warehouses like Google Big Query, Snowflake, Redshift, Databricks
+Domain expertise in one or more of the Finance, Product, Marketing, Operations, Customer Experience
+Demonstrated experience engaging and influencing senior leaders across functions, including an ability to communicate effectively with both business and technical teams
+Strong analytical and quantitative skills with the ability to use data and metrics to back up assumptions and recommendations to drive actions
+Ability to articulate vision, mission, and objectives, and change the narrative appropriate to the audience

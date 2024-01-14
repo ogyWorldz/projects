@@ -1,0 +1,52 @@
+OGY CANGOZ
+SENIOR ANALYTICS DATA ENGINEER
+Greater NYC Area | 570-877-1832 | Ocangoz2@gmail.com | linkedin.com/in/ocangoz
+PROFESSIONAL SUMMARY
+Senior Analytics Engineer with over 6 years of experience. Specializing in optimizing large-scale processes to ensure swift data delivery and meet cost-cutting objectives. As a motivated engineer, I have consistently pursued opportunities for ongoing professional development to refine both technical and interpersonal skills, allowing me to take on a wide variety of projects.
+KEY QUALIFICATIONS 
+ 
+•   Advanced Level SQL (Posgres, MYSQL)
+•   BI Tools (Looker, Tableau, Power BI)
+•   Compute (Airflow, EC2)
+•   Cloud Storage (AWS S3, GCP, Redshift)
+•   Version Control (GitHub, Docker)
+•   Data Science (Databricks, Python, R) 
+PROFESSIONAL EXPERIENCE
+ 
+SENIOR ANALYTICS ENGINEER - WBD
+BI ENGINEER
+03/2022 to Current
+03/2020 to 03/2022 
+ 
+As a Senior Analytics Engineer with Warner Bros Discovery, my role revolves around Looker reporting initiatives. I support Ad Sales stakeholders with reporting needs for all WBD products. My main objective is the conversion of raw data into self-serving analytics solutions that empower data consumers.  
+•   Reduced a daily ETL process from 1.5 hr. to 40 min by implementing best practices, including UDFs, CTEs, numeric joins, and parallel execution, saving the Ad Sales org about 40% on execution time daily on the 2 largest ETL’s.
+•   Secured management approval for the implementation of OPEN AI API, leading to enhancements in Data Quality Checks, Documentation, Code Reviews/Recommendations, and the creation of an LLM Chat Bot for our Technical Support Slack channel, boosting team efficiency, scalability, and code security.
+•   Developed a unified Revenue Pacing metric for both legacy WarnerMedia and Discovery campaigns, working meticulously with stakeholders before the launch of our unified product “MAX”. 
+•   Consistently writing scalable Apache Airflow DAGs, as well as maintaining 50+ DAGs daily. I have implemented data quality checks within Airflow which indicate the location of the issue when DAGs fail. 
+•   Established leadership role in technical reporting by collaborating with key stakeholders like CNN, Bleacher Report, and Looker users in weekly meetings to address reporting, business needs, and data quality.
+ 
+SENIOR DATA ANALYST - 3Q Digital
+DATA ANALYST
+01/2020 to 01/2020
+10/2018 to 12/2019
+ 
+As a Senior Data Analyst on the Decision Sciences team at 3Q Digital, I was a member of a specialized analytics team that developed data science models and communicated findings to enterprise clients.
+ 
+•   Identified optimal media spend allocation across channels by leveraging statistical forecast models (Prophet Model), informing our highest paying client on how best to optimize spending each quarter.
+•   Developed Python models using statistics to inform clients on budget allocation, incrementality, and forecasting. 
+PLANNING ANALYST - Eat Club 
+02/2018 to 08/2018 
+Eat Club is a food-tech company that provides corporate lunch. As a Planning Analyst, I was responsible for demand planning and overseeing the supply chain process, as well as managing inventory of 100,000+ units.
+ 
+•   Time-series forecasted to manage supply across 3 New York City distribution centers, making crucial daily decisions in a fast-paced environment that directly impacted the company’s profitability. 
+•   Leveraged Looker for analytics reporting and dashboard creation for the non – analytical leadership team. 
+EDUCATION
+ 
+BACHELOR OF SCIENCE
+Economics 2016
+PENNSYLVANIA STATE UNIVERSITY
+State College, Pa
+ 
+ANALYTICAL SKILLS 
+Technical: Snowflake, Airflow, AWS, GCP, Looker, Python, Databricks, Docker, Git, Relational Databases, Django, Architecture / Schema Design, Governance/ Quality Control, AI Innovation
+Soft: Agile/CICD Frameworks, Communication, Reliable Code Reviews, Data Exploration, Technical Presentation 
