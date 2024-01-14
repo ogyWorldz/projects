@@ -3,7 +3,12 @@
 ## Title
 Resume Keyword Matching Tool. 
 
-This project is still in development. See dev here: [CommonWords]([URL](https://dev3983.d5vvbtfjo0jaz.amplifyapp.com/))
+This project is still in development. 
+
+See dev here:
+[CommonWords](https://dev3983.d5vvbtfjo0jaz.amplifyapp.com/)
+
+
 
 ## Overview
 The project aims to develop a tool that matches keywords from a candidate's resume with key terms in a job description. This tool will assess how well a candidate's skills and experiences align with the requirements outlined in the job description. The objective is to empower candidates to tailor their resumes effectively for specific job opportunities.
