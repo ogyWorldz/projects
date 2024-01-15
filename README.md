@@ -30,15 +30,16 @@ Project I am working on.....
 <!--- --->
 1. **Common Words**
    - Description: This tool provides a free way for job seeker's to get a high match score on ATS systems. 
-   - Status: In-Production
+   - Status: In-Progress
+   - Link: [see here](https://dev3983.d5vvbtfjo0jaz.amplifyapp.com/)
 <!--- --->
 2. **My Portfolio**
    - Description: A place to get to know me better. A space for me to share more than just my resume!
-   - Status: In-Production
+   - Status: In-Progress []()
 
 3. **Forcasting**
    - Description: This tool provides a free way for job seeker's to get a high match score on ATS systems.
-   - Status: Pre-Production
+   - Status: Pre-Production []()
 <!--- 
 4. **My Portfolio**
    - Description: [A place to get to know me better. A space for me to share more than just my resume!]
