@@ -1,20 +1,13 @@
 # Project Summary
 
 ## Title
-Common Words Project
-
-This project is still in development. 
-
-See dev here:
-[CommonWords](https://dev3983.d5vvbtfjo0jaz.amplifyapp.com/)
-
-
+Resume Keyword Matching Tool
 
 ## Overview
 The project aims to develop a tool that matches keywords from a candidate's resume with key terms in a job description. This tool will assess how well a candidate's skills and experiences align with the requirements outlined in the job description. The objective is to empower candidates to tailor their resumes effectively for specific job opportunities.
 
 ## Objectives
-- Create a free keyword matching algorithm for comparing resumes and job descriptions for ATS.
+- Create a keyword matching algorithm for comparing resumes and job descriptions.
 - Develop an intuitive user interface for candidates to input their resumes and job descriptions.
 - Provide a scoring system to quantify the alignment between the resume and job description.
 - Offer personalized suggestions for candidates to optimize their resumes based on the job requirements.
@@ -32,7 +25,10 @@ The project aims to develop a tool that matches keywords from a candidate's resu
 - **Week 7-8:** Testing and refinement
 
 ## Stakeholders
-- Job Seekers
+- Project Manager
+- Developers
+- Candidates
+- HR and Hiring Managers
 
 ## Risks
 - Potential challenges in accurately matching diverse keyword variations.
@@ -42,5 +38,11 @@ The project aims to develop a tool that matches keywords from a candidate's resu
 - High accuracy in matching relevant keywords.
 - Positive feedback from candidates on the usability of the tool.
 - Increased interview invitations for candidates using the tool.
+
+## Communication
+Regular updates will be shared with the project team through weekly meetings. Feedback from candidates and stakeholders will be collected through surveys and interviews.
+
+## Next Steps
+Initiate algorithm development, finalize interface design, and gather initial feedback from a small group of candidates.
 
 ---
