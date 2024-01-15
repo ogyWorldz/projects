@@ -6,6 +6,10 @@ Common Words Project
 ## Overview
 The project aims to develop a tool that matches keywords from a candidate's resume with key terms in a job description. This tool will assess how well a candidate's skills and experiences align with the requirements outlined in the job description. The objective is to empower candidates to tailor their resumes effectively for specific job opportunities.
 
+
+## Architecture
+[See here](https://github.com/ogyWorldz/projects/blob/main/common_words/architecture.png)
+
 ## Objectives
 - Create a keyword matching algorithm for comparing resumes and job descriptions.
 - Develop an intuitive user interface for candidates to input their resumes and job descriptions.
