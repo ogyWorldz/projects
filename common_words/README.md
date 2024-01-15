@@ -1,7 +1,7 @@
 # Project Summary
 
 ## Title
-Resume Keyword Matching Tool
+Common Words Project
 
 ## Overview
 The project aims to develop a tool that matches keywords from a candidate's resume with key terms in a job description. This tool will assess how well a candidate's skills and experiences align with the requirements outlined in the job description. The objective is to empower candidates to tailor their resumes effectively for specific job opportunities.
@@ -24,11 +24,12 @@ The project aims to develop a tool that matches keywords from a candidate's resu
 - **Week 5-6:** Scoring system implementation
 - **Week 7-8:** Testing and refinement
 
-## Stakeholders
+<!-- ## Stakeholders
 - Project Manager
 - Developers
 - Candidates
 - HR and Hiring Managers
+ -->
 
 ## Risks
 - Potential challenges in accurately matching diverse keyword variations.
@@ -39,10 +40,13 @@ The project aims to develop a tool that matches keywords from a candidate's resu
 - Positive feedback from candidates on the usability of the tool.
 - Increased interview invitations for candidates using the tool.
 
-## Communication
+<!-- ## Communication
 Regular updates will be shared with the project team through weekly meetings. Feedback from candidates and stakeholders will be collected through surveys and interviews.
-
+ -->
 ## Next Steps
 Initiate algorithm development, finalize interface design, and gather initial feedback from a small group of candidates.
+
+
+
 
 ---
