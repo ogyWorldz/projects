@@ -3,7 +3,7 @@ import pandas as pd
 from codes import codes
 
 # OpenWeatherMap API key
-API_KEY = "3faa298af2692c6397d61c444db419e7"
+API_KEY = "add api key here"
 BASE_URL = "https://api.openweathermap.org/data/2.5/forecast?"
 
 # Function to pull weather data
