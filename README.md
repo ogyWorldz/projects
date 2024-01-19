@@ -19,9 +19,7 @@ Highlight your key skills. This could include programming languages, tools, meth
 --->
 ## Interests
 
-Discuss your interests and hobbies outside of your professional life. It's important to show a well-rounded personality.
-
-- **Hobbies:** Volleyball, Crossfit, Backpacking, Reading History Books, Bread Baking, Wood Working and much much more. I love being active!
+- **Hobbies:** Volleyball, Crossfit, Backpacking, Reading, Bread Baking, Wood Working and much much more. I love being active!
 - **Interests:** I am a natural builder. Whether it is making breads or building outdoor pergola's for friends, I am always making something from nothing! This is why i love working with data so much. To me, building applications and workflows is a creative outlet for me.
 
 ## Projects
@@ -47,8 +45,6 @@ Project I am working on.....
    - Status: Pre-Production
 <!--- --->
 ## Contact
-
-Share your contact information or links to your professional profiles (LinkedIn, GitHub, etc.).
 
 - **Email:** [ocangoz2@gmail.com]
 - **LinkedIn:** [https://www.linkedin.com/in/ocangoz/]

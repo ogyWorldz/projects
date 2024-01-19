@@ -1,36 +1,27 @@
 # Project Summary
 
 ## Title
-[Your Project Title]
+My Portfolio
 
 ## Overview
-[Briefly describe what the project is about.]
+This is an online resume, which highlights my skills and interestins in the engineering space.
 
 ## Objectives
-- [Objective 1]
-- [Objective 2]
-- [Objective 3]
+- Find easy to read template
+- AWS integration with CI/CD, to push updates automatically.
+- Include Data architecture. Consider Route53 domain
 
-## Deliverables
-- [List of key things the project will produce.]
-
-## Timeline
-[Outline major milestones and deadlines.]
-
-## Stakeholders
-- [List of key people involved in the project.]
+## Architecture
+- AWS S3 -> AWS CODEPILELINE
 
 ## Risks
-- [Potential challenges or risks.]
+- Potential to be outdated. Should add timestamp to resume.
 
 ## Success Criteria
-[Specify what will make the project successful.]
-
-## Communication
-[Outline how communication will happen.]
+Project is in production with automaticate updates
 
 ## Next Steps
-[Highlight immediate next steps.]
+- Include Data architecture. Consider Route53 domain
 
 ---
 
