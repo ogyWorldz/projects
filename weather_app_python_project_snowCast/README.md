@@ -11,6 +11,9 @@ Analyze snowfall near ski resorts
 
 ## Deliverables
 - A website with snowfall totals
+- Provides daily ticket prices
+- Forecast how crowded it is at each resort
+
 
 ## Timeline
 - **Week 1-2:** Algorithm development

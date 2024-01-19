@@ -37,7 +37,7 @@ Project I am working on.....
    - Link: [see here](https://myportfoliobucket-ogyworld.s3.amazonaws.com/my_portfolio/index.html)
 
 3. **Forcasting**
-   - Description: This tool provides a free way for job seeker's to get a high match score on ATS systems.
+   - Description: This tool forecasts snowfall at mountain resorts. This will give you the best option when trying to decide where to ski
    - Status: Pre-Production []()
 <!--- 
 4. **My Portfolio**
