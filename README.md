@@ -19,7 +19,7 @@ Highlight your key skills. This could include programming languages, tools, meth
 --->
 ## Interests
 
-- **Hobbies:** Volleyball, Crossfit, Backpacking, Reading, Bread Baking, Wood Working and much much more. I love being active!
+- **Hobbies:** Volleyball, Crossfit, Backpacking, Reading, Bread Baking, Wood Working, backpacking and much much more. I love being active!
 - **Interests:** I am a natural builder. Whether it is making breads or building outdoor pergola's for friends, I am always making something from nothing! This is why i love working with data so much. To me, building applications and workflows is a creative outlet for me.
 
 ## Projects
