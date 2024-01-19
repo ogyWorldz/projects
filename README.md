@@ -35,7 +35,8 @@ Project I am working on.....
 <!--- --->
 2. **My Portfolio**
    - Description: A place to get to know me better. A space for me to share more than just my resume!
-   - Status: In-Progress []()
+   - Status: In-Progress
+   - Link: [see here](https://myportfoliobucket-ogyworld.s3.amazonaws.com/my_portfolio/index.html)
 
 3. **Forcasting**
    - Description: This tool provides a free way for job seeker's to get a high match score on ATS systems.
